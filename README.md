@@ -44,22 +44,6 @@
 
 6. Blood Preasure: If user connects a watch would be able to measure and record their blood pressure and heart rate, this can be useful in tracking users blood pressure, unsure of this feature for now. 
 
-### Edit History 
-
-- 6-18-24: Created the neccessary files using npm and created teh envoirment to begin building the app. Also began to think of how I want the app to look like with the page layout and general style. Began working on the tab navigations. Added a bit of style to the tabs and made them work.
-
-### Took a puse for around a week to focus on my summer courses.
-
-- 6-30-24: Rearranged some of the app files, also added icons to the tab navigator and began wokring on the background async storage with a simple log in and log out screen. Tested the async by adding the user name on another screen. Seems to be working well 
-
-
-- 7-4-24: Began working on the liquid tracking page, got some good progress done today, added basic text and style and created 3 other sub components, liquid card, which displays the information and gives them some editing options (thos options are still a work in progress), a calender, which lets them pick different dates to change the data, and a circular progress, which is a circle that fills up based on how much have left to drink. So far the app has a few bugs, mainly the exchange button causes the falt list to dissapear. Second the app does not change between days yet, one day will carry over to the other which is not idea, ill try to do it in an index based form next where everything is in an arry based on the date. 
-
-- 7-6-24: Was able to get the calendar to woek by indexing with the date into a dictionary with an array as value. Now each date has its own information. There are still a few bugs, mainly: persistant storage does not fully work, only one date gets stored for some reason. Second, the daily total and progress do not update correctly, they only update after two entires are inserted, I think this is an issue with how im classing use Effect. 
-
-- 7-7-24: Able to get persistance working, data is saved for individual days when app is closed and reopened. Having the same issue with updates not being fully integrated, until two entries, this only happened near the end, worked throughout the seesion, might be something to do with how im calling use effect. Added some buttons as well and settings which will control some constants in the app and got the reset and exchange working. 
-
-
 ---------------------------------------------------------------------------------------------------------
 
 ### More projects to be added!
