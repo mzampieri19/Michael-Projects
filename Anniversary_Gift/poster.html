@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messages</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f1f1f1;
+        }
+
+        .poster {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <h1> Sender Ratio</h1>
+        <script>
+            // Call the senderRatio method and store the result in a variable
+            var senderRatio = mainclass.senderRatio();
+
+            // Create a new paragraph element
+            var paragraph = document.createElement("p");
+
+            // Set the text content of the paragraph to the senderRatio value
+            paragraph.textContent = "Sender Ratio: " + senderRatio;
+
+            // Append the paragraph to the poster div
+            document.querySelector(".poster").appendChild(paragraph);
+        </script>
+
+    </div>
+</body>
+</html>
